@@ -1,8 +1,10 @@
 # MongoDB Basics
 
+* Cloud Based MongoDB Server - Atlas
+
 ## Connect to MongoDB Database and read write documents
 
-* Create account on mongodb.com/atlas/detabase
+* Create account on mongodb.com/atlas/database
 * Cluster0 will be available by default
 
 ## Prerequisites
@@ -20,6 +22,11 @@ npm install --save express
 npm install --save body-parser
 npm install --save mongodb
 ```
+
+## Connection string
+
+* Copy connection string from Atlas server
+* Keep secrets in `.env` file and substitute them in the connection string
 
 ## Learn how to use ORM mongoose
 
